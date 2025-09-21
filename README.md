@@ -9,9 +9,10 @@ Requirements:
 - Python 3.8+
 
 Quickstart:
-- Glider demo: `python src/main.py --width 40 --height 20 --steps 200 --pattern glider`
-- Random world: `python src/main.py --width 60 --height 30 --steps 500 --pattern random --density 0.25`
-- Blinker: `python src/main.py --width 20 --height 10 --steps 100 --pattern blinker`
+- Preferred invocation: `python3 -m src.main` (ensures package-relative imports work)
+- Glider demo: `python3 -m src.main --width 40 --height 20 --steps 200 --pattern glider`
+- Random world: `python3 -m src.main --width 60 --height 30 --steps 500 --pattern random --density 0.25`
+- Blinker: `python3 -m src.main --width 20 --height 10 --steps 100 --pattern blinker`
 
 Controls:
 - Press Ctrl-C to stop the simulation.
